@@ -4,7 +4,7 @@
 ..\obj\adc.o: ..\USER\stm32f1xx.h
 ..\obj\adc.o: ..\USER\stm32f103xe.h
 ..\obj\adc.o: ..\CORE\core_cm3.h
-..\obj\adc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\adc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\adc.o: ..\CORE\cmsis_compiler.h
 ..\obj\adc.o: ..\CORE\cmsis_armcc.h
 ..\obj\adc.o: ..\USER\system_stm32f1xx.h
@@ -13,7 +13,7 @@
 ..\obj\adc.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h
 ..\obj\adc.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h
 ..\obj\adc.o: ..\USER\stm32f1xx.h
-..\obj\adc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\adc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\adc.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h
 ..\obj\adc.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h
 ..\obj\adc.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h

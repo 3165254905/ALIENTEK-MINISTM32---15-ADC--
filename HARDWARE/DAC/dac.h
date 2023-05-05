@@ -17,5 +17,5 @@
 extern DAC_HandleTypeDef DAC1_Handler;//DAC¾ä±ú
 
 void DAC1_Init(void);
-void DAC1_Set_Vol(u16 vol);
+void DAC1_Set_Vol(double vol);
 #endif

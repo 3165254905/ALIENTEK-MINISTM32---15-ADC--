@@ -46,7 +46,7 @@ void HAL_DAC_MspInit(DAC_HandleTypeDef* hdac)
 
 //设置通道1输出电压
 //vol:0~3300,代表0~3.3V
-void DAC1_Set_Vol(u16 vol)
+void DAC1_Set_Vol(double vol)
 {
 	double temp=vol;
 	temp/=1000;

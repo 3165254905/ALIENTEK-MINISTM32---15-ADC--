@@ -5,7 +5,7 @@
 ..\obj\usmart_config.o: ..\USER\stm32f1xx.h
 ..\obj\usmart_config.o: ..\USER\stm32f103xe.h
 ..\obj\usmart_config.o: ..\CORE\core_cm3.h
-..\obj\usmart_config.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usmart_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\usmart_config.o: ..\CORE\cmsis_compiler.h
 ..\obj\usmart_config.o: ..\CORE\cmsis_armcc.h
 ..\obj\usmart_config.o: ..\USER\system_stm32f1xx.h
@@ -14,7 +14,7 @@
 ..\obj\usmart_config.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h
 ..\obj\usmart_config.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h
 ..\obj\usmart_config.o: ..\USER\stm32f1xx.h
-..\obj\usmart_config.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\usmart_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\usmart_config.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h
 ..\obj\usmart_config.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h
 ..\obj\usmart_config.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h
@@ -60,4 +60,4 @@
 ..\obj\usmart_config.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_mmc.h
 ..\obj\usmart_config.o: ..\SYSTEM\delay\delay.h
 ..\obj\usmart_config.o: ..\HARDWARE\LCD\lcd.h
-..\obj\usmart_config.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\usmart_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

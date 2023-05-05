@@ -27,9 +27,9 @@
 u16 adcx;
 float temp;
 float angle = 0.0;
-float voltage = 0;
+double voltage = 0;
 float step = 0.1;
-int waveType = 0;
+int waveType = 2;
 
 void Draw_Axis(void)
 {
@@ -91,12 +91,7 @@ int main(void)
     MY_ADC_Init();                  // 初始化ADC1通道1
 
     // Initialize DAC
-    hdac.Instance = DAC1;
-    HAL_DAC_Init(&hdac);
-    sConfig.DAC_Trigger = DAC_TRIGGER_NONE;
-    sConfig.DAC_OutputBuffer = DAC_OUTPUTBUFFER_ENABLE;
-    HAL_DAC_ConfigChannel(&hdac, &sConfig, DAC_CHANNEL_1);
-    HAL_DAC_Start(&hdac, DAC_CHANNEL_1);
+    DAC1_Init();
 
     POINT_COLOR = RED;
     LCD_ShowString(30, 50, 200, 16, 16, "Mini STM32");
@@ -106,10 +101,10 @@ int main(void)
     POINT_COLOR = BLUE; // 设置字体为蓝色
     LCD_ShowString(30, 130, 200, 16, 16, "ADC1_CH1_VAL:");
     LCD_ShowString(30, 150, 200, 16, 16, "ADC1_CH1_VOL:0.000V"); // 先在固定位置显示小数点
+    LCD_Clear(WHITE);
 
     while (1)
     {
-        LCD_Clear(WHITE);
         switch (waveType)
         {
         case 0: // 三角波

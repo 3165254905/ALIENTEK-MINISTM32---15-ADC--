@@ -5,7 +5,7 @@
 ..\obj\usmart.o: ..\USER\stm32f1xx.h
 ..\obj\usmart.o: ..\USER\stm32f103xe.h
 ..\obj\usmart.o: ..\CORE\core_cm3.h
-..\obj\usmart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usmart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\usmart.o: ..\CORE\cmsis_compiler.h
 ..\obj\usmart.o: ..\CORE\cmsis_armcc.h
 ..\obj\usmart.o: ..\USER\system_stm32f1xx.h
@@ -14,7 +14,7 @@
 ..\obj\usmart.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h
 ..\obj\usmart.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h
 ..\obj\usmart.o: ..\USER\stm32f1xx.h
-..\obj\usmart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\usmart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\usmart.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h
 ..\obj\usmart.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h
 ..\obj\usmart.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h
@@ -59,4 +59,4 @@
 ..\obj\usmart.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_hcd.h
 ..\obj\usmart.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_mmc.h
 ..\obj\usmart.o: ..\SYSTEM\usart\usart.h
-..\obj\usmart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\usmart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
